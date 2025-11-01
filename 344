@@ -1,0 +1,5 @@
+# Введення рядка від користувача
+text = input()
+# Виведення індексів і символів
+for i in range(len(text)):
+    print(i, text[i])
